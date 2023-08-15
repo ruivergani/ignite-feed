@@ -15,7 +15,6 @@ export function Comment({content, onDeleteComment}){
     function handleLikeComment(){
         setLikeCount(likeCount + 1);
     }
-
     return (
         <div className={styles.comment}>
             {/* Props to remove the border from this component */}
